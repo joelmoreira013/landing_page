@@ -7,7 +7,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 .center{
-    width: 1280px;
+    width: 1200px;
     margin:0 auto;
 }
 .header{
@@ -93,4 +93,46 @@
 .form input[type=submit]:hover{
     background-color: rgb(98, 20, 98);
     cursor: pointer;
+}
+.container-list{
+    margin-top: 50px;
+    width: 700px;
+    height: 350px;
+    float: left;
+    background-color: rgba(33,35,67,0.7);
+    border: 1px solid rgb(98, 20, 98);
+    border-radius: 5%;
+}
+
+.container-list h1,p{
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.container-2{
+    padding: 60px 0;
+    height: 310px;
+    background-color: rgb(246, 200, 246);
+    text-align: center;
+}
+.container-2 h2{
+    font-weight: normal;
+}
+.container-2 p{
+    margin: 15px 0;
+    width: 698px;
+    display: inline-block;
+}
+.arrow{
+    position: relative;
+    margin-left: 48.3%;
+    margin-top: 60px;
+    width: 64px;
+    height:64px;
+    background-image: url(./images/arrow.png);
+    border: 1px solid rgb(98, 20, 98);
+    border-radius: 50%;
+    
+   
 }
