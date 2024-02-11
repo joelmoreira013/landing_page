@@ -155,7 +155,7 @@
 }
 .container-single{
     float: left;
-    width: 33.333%;
+    width: 33.3%;
     padding: 30px;
 }
 .container-single p{
@@ -163,4 +163,12 @@
 }
 .container-single img{
     width: 60px;
+}
+
+.footer{
+    clear: both;
+    border-top: 4px solid #1b0131;
+    padding: 40px 0;
+    text-align: center;
+    background-color: #25122f;
 }
